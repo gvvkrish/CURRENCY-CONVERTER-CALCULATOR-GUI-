@@ -1,0 +1,5 @@
+G  = input("Enter the initial currency: ")
+y = input("Enter the target currency: ")
+amt = float(input("Enter the amount "))
+val = float(input("Enter the value of one ",G,"in",y))
+print("the value = {}".format(val*amt))
